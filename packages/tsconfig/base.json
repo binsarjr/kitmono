@@ -1,0 +1,9 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "display": "Default (reference from .sveltekit/tsconfig.json)",
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "module": "esnext",
+        "target": "esnext"
+    }
+}
