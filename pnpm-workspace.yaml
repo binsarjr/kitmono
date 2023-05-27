@@ -1,0 +1,8 @@
+# More Information: https://pnpm.io/id/pnpm-workspace_yaml
+packages:
+  # all packages in direct subdirs of packages/
+  - 'packages/*'
+  # all site application
+  - 'sites/**'
+  # exclude packages that are inside test directories
+  - '!**/test/**'
