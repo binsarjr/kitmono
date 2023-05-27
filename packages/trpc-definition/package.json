@@ -11,6 +11,7 @@
     "@trpc/server": "^10.28.0"
   },
   "devDependencies": {
-    "tsconfig": "workspace:*"
+    "tsconfig": "workspace:*",
+    "typescript": "^5.0.0"
   }
 }

@@ -19,6 +19,9 @@ importers:
       tsconfig:
         specifier: workspace:*
         version: link:../tsconfig
+      typescript:
+        specifier: ^5.0.0
+        version: 5.0.4
 
   packages/tsconfig: {}
 
