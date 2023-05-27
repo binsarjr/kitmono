@@ -26,10 +26,10 @@ The `ui` package houses the user interface components and related code for your 
 
 To get started with your monorepo project using this template, follow these steps:
 
-1. Clone this repository: `git clone https://github.com/your-username/your-repo.git`.
+1. Clone this repository: `git clone https://github.com/binsarjr/kitmono.git`.
 2. Install pnpm globally: `npm install -g pnpm`.
 3. Install dependencies for all packages: `pnpm install`.
-4. Start the development server: `pnpm run dev`.
+4. Start the development server: `pnpm --filter kitmono.vercel.app dev`.
 
 Feel free to customize and extend this template to fit your specific project requirements. Happy coding!
 
