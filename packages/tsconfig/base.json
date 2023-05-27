@@ -2,8 +2,17 @@
     "$schema": "https://json.schemastore.org/tsconfig",
     "display": "Default (reference from .sveltekit/tsconfig.json)",
     "compilerOptions": {
+        "outDir": "dist",
         "moduleResolution": "node",
         "module": "esnext",
-        "target": "esnext"
+        "target": "esnext",
+        "declaration": true,
+        "allowJs": true,
+        "checkJs": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "resolveJsonModule": true,
+        "skipLibCheck": true,
+        "strict": true
     }
 }
