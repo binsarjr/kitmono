@@ -4,6 +4,16 @@ This repository serves as a template for creating a monorepo project using [pnpm
 
 It provides a structured setup for managing multiple packages and applications within a single repository. The included packages are `trpc-definition`, `tailwind-configuration`, `tsconfig`, and `ui`, while the apps are built using SvelteKit.
 
+> ## Tips for SvelteKit
+
+>
+
+> - Keep all libraries in the `devDependencies` section.
+
+> - SvelteKit will handle the compilation of all dependencies.
+
+> - Ensure the `node_modules` folder remains empty when uploading to production.
+
 ## Packages
 
 ### trpc-definition
