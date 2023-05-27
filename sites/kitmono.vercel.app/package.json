@@ -35,6 +35,7 @@
 		"trpc-sveltekit": "^3.5.9",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
+		"ui": "workspace:^",
 		"vite": "^4.3.0"
 	},
 	"type": "module"
