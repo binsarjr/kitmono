@@ -1,0 +1,19 @@
+{
+  "name": "trpc-definition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "@trpc/server": "^10.28.0"
+  },
+  "devDependencies": {
+    "tsconfig": "workspace:*"
+  }
+}
