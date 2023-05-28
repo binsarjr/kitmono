@@ -1,0 +1,12 @@
+{
+	"extends": ["//"],
+	"pipeline": {
+		"build": {
+			"outputs": [".svelte-kit/**"]
+		},
+		"lint": {
+			"dependsOn": ["format"]
+		},
+		"format": {}
+	}
+}
