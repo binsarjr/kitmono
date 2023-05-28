@@ -2,7 +2,7 @@ import { inferRouterInputs, inferRouterOutputs } from '@trpc/server'
 import { publicProcedure, router } from './t'
 
 export const sharedRouter = router({
-    greeting: publicProcedure.query(() => 'hello shared tRPC'),
+    greeting: publicProcedure.query(() => `hello shared tRPC @ ${new Date().toLocaleTimeString()}`),
 })
 
 export type SharedRouter = typeof sharedRouter

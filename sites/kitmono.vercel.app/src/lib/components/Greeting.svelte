@@ -1,24 +1,24 @@
 <script lang="ts">
-  import { page } from '$app/stores';
-  import { trpc } from '$lib/trpc/client';
+	import { page } from '$app/stores';
+	import { trpc } from '$lib/trpc/client';
 
-  let greeting = 'press the button to load data';
-  let loading = false;
+	let greeting = 'press the button to load data';
+	let loading = false;
 
-  const loadData = async () => {
-    loading = true;
-    greeting = await trpc($page).greeting.query();
-    loading = false;
-  };
+	const loadData = async () => {
+		loading = true;
+		greeting = await trpc($page).greeting.query();
+		loading = false;
+	};
 </script>
 
-<h6>Loading data in<br /><code>+page.svelte</code> from local trpc</h6>
-
-<a
-  href="#load"
-  role="button"
-  class="secondary"
-  aria-busy={loading}
-  on:click|preventDefault={loadData}>Load</a
->
-<p>{greeting}</p>
+<div>
+	<a
+		href="#load"
+		role="button"
+		class="bg-green-500 px-4 py-2 rounded text-white mb-4 inline-block"
+		aria-busy={loading}
+		on:click|preventDefault={loadData}>Load From Local</a
+	>
+	<p>{greeting}</p>
+</div>
