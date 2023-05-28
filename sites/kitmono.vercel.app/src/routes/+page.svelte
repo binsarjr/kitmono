@@ -12,10 +12,10 @@
 	</div>
 	<div class="flex flex-col items-center gap-5 p-5">
 		<h1 class="text-xl">Load Data using tRPC</h1>
-			<div class="flex gap-5">
-				<Greeting />
+		<div class="flex gap-5">
+			<Greeting />
 			<GreetingShared />
-			</div>
+		</div>
 	</div>
 	<div>
 		<MyCounterButton />

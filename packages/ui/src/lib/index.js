@@ -1,5 +1,3 @@
-import MyCounterButton from "./components/MyCounterButton.svelte"
+import MyCounterButton from './components/MyCounterButton.svelte';
 
-export {
-    MyCounterButton
-}
+export { MyCounterButton };
