@@ -16,13 +16,13 @@ importers:
 
   packages/trpc-definition:
     dependencies:
-      '@trpc/server':
-        specifier: ^10.28.0
-        version: 10.28.0
       typescript:
         specifier: ^5.0.0
         version: 5.0.4
     devDependencies:
+      '@trpc/server':
+        specifier: ^10.28.0
+        version: 10.28.0
       tsconfig:
         specifier: workspace:*
         version: link:../tsconfig
@@ -656,6 +656,7 @@ packages:
 
   /@trpc/server@10.28.0:
     resolution: {integrity: sha512-PrJ/VgRuujMCtNkgrldCPbqv3+yk1LKweKEfvQHTN2L0WIaKJPXzSsOTJS9PqNpFOTqzaK5mgDbypIFvq7SYow==}
+    dev: true
 
   /@types/cookie@0.5.1:
     resolution: {integrity: sha512-COUnqfB2+ckwXXSFInsFdOAWQzCCx+a5hq2ruyj+Vjund94RJQd4LG2u9hnvJrTgunKAaax7ancBYlDrNYxA0g==}
