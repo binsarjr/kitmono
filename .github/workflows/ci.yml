@@ -32,7 +32,9 @@ jobs:
             cache: 'pnpm'
  
         - name: Install dependencies
-          run: pnpm install
+          run: |
+            pnpm config set auto-install-peers true
+            pnpm install
  
         - name: Format
           run: pnpm format
