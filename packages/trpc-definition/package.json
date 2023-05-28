@@ -8,10 +8,10 @@
     "build": "rm -rf dist && tsc"
   },
   "peerDependencies": {
-    "@trpc/server": "^10.28.0"
+    "@trpc/server": "^10.28.0",
+    "typescript": "^5.0.0"
   },
   "devDependencies": {
-    "tsconfig": "workspace:*",
-    "typescript": "^5.0.0"
+    "tsconfig": "workspace:*"
   }
 }

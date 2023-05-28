@@ -29,13 +29,13 @@
 		"svelte": "^3.54.0",
 		"svelte-check": "^3.0.1",
 		"svelte-preprocess": "^5.0.3",
-		"tailwind-config": "workspace:^",
+		"tailwind-config": "workspace:*",
 		"tailwindcss": "^3.3.1",
-		"trpc-definition": "workspace:^",
+		"trpc-definition": "workspace:*",
 		"trpc-sveltekit": "^3.5.9",
 		"tslib": "^2.4.1",
 		"typescript": "^5.0.0",
-		"ui": "workspace:^",
+		"ui": "workspace:*",
 		"vite": "^4.3.0"
 	},
 	"type": "module"
